@@ -12,7 +12,7 @@ let
     name = appName;
     src = pkgs.fetchurl {
       url = "https://www.sparklabs.com/downloads/Viscosity.dmg";
-      sha256 = "0lxmrys5p41k5nsnnlymag5rsma0mri1gk2msd5isl0li0lzmac9";
+      sha256 = "116zqkxjka99z9rk7bmabwbv0aghprxs2y76n8yy6mwfrwmksjzk";
     };
 
     buildInputs = [ pkgs.undmg ];
