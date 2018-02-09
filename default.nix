@@ -25,7 +25,7 @@ let
     meta = {
       description = "VPN client for macOS";
       homepage = https://www.sparklabs.com/viscosity/;
-      platforms = stdenv.lib.platforms.darwin;
+      platforms = pkgs.stdenv.lib.platforms.darwin;
     };
   };
 
